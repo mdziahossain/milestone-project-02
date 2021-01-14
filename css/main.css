@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Commons */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fffdfd;
+}
+
+header {
+  background-color: #fff9f4;
+}
+
+.btn-buy {
+  background-color: #3d4ff3;
+  color: white;
+  width: 170px;
+  height: 60px;
+}
+
+/* Navigation */
+nav #logo {
+  width: 290px;
+  height: 40px;
+}
+
+nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.navbar-bg {
+  background-image: url(../images/background-2.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/* Hero */
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+  font-size: 80px;
+  line-height: 0.25;
+}
+
+.hero h2 {
+  font-family: "Bebas Neue", cursive;
+  color: #fa804c;
+  font-size: 80px;
+}
+
+.hero p {
+  color: #3e3e3e;
+  font-size: 16px;
+  line-height: 0.5;
+}
+
+.hero-text {
+  padding-left: 90px;
+}
+
+/* Cards */
+.casual h1,
+.formal h1 {
+  color: #363958;
+  font-family: "Bebas Neue", cursive;
+  font-size: 48px;
+}
+
+.casual img,
+.formal img {
+  width: 100%;
+  background-color: #f1f1f1;
+  width: 370px;
+  height: 330px;
+  border-radius: 20px;
+}
+
+.card-title {
+  color: #363958;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card h2 {
+  color: #fa804c;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.icon-color {
+  color: #fa804c;
+}
+
+.br-card {
+  border: 0;
+}
+
+/* Services */
+.services h5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #363958;
+}
+
+.services p {
+  color: #3e3e3e;
+  font-size: 16px;
+}
+
+.services-img {
+  width: 90px;
+  margin-left: 20px;
+}
+
+.services-bg {
+  background-color: white;
+  width: 490px;
+  height: 135px;
+  border-radius: 20px;
+}
+
+/* Newsletter */
+.newsletter {
+  background-color: #f2f2f2;
+  min-height: 300px;
+}
+
+.newsletter .content .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius: 0;
+}
+
+.newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #243c4f;
+}
+
+.newsletter .content .btn {
+  min-height: 50px;
+  border-radius: 0;
+  background: #243c4f;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  padding-top: 40px;
+}
